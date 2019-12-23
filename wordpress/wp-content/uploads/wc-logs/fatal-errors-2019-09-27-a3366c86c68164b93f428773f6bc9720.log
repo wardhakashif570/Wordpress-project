@@ -1,0 +1,14 @@
+2019-09-27T20:15:04+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\wordpress-5.2.3\wordpress\wp-includes\Requests\Transport\cURL.php on line 441
+
+2019-09-27T20:54:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\wordpress-5.2.3\wordpress\wp-includes\Requests\Transport\cURL.php on line 441
+
+2019-09-27T20:56:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\wordpress-5.2.3\wordpress\wp-includes\Requests\Transport\cURL.php on line 441
+
+2019-09-27T20:56:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\wordpress-5.2.3\wordpress\wp-admin\includes\theme.php on line 21
+
+2019-09-27T20:56:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\wordpress-5.2.3\wordpress\wp-includes\wp-db.php on line 2007
+
+2019-09-27T22:00:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\wordpress-5.2.3\wordpress\wp-includes\wp-db.php on line 2007
+
+2019-09-27T22:59:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\wordpress-5.2.3\wordpress\wp-includes\wp-db.php on line 2007
+

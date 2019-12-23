@@ -1,0 +1,66 @@
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper .rtwpvs-radio-term[data-rtwpvs-tooltip] {
+  position: relative;
+}
+
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper .rtwpvs-radio-term[data-rtwpvs-tooltip]::before, .rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper .rtwpvs-radio-term[data-rtwpvs-tooltip]::after {
+  left: 8px;
+  bottom: 100%;
+}
+
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip] {
+  position: relative;
+  cursor: pointer;
+  outline: none;
+}
+
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip]:before,
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip]:after {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  box-sizing: inherit;
+  position: absolute;
+  bottom: 130%;
+  left: 50%;
+  z-index: 999;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip]:before {
+  margin-bottom: 5px;
+  margin-left: -50px;
+  padding: 7px;
+  min-width: 100px;
+  border-radius: 3px;
+  background-color: #000000;
+  background-color: rgba(51, 51, 51, 0.9);
+  color: #ffffff;
+  content: attr(data-rtwpvs-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip]:after {
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000000;
+  border-top: 5px solid rgba(51, 51, 51, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip]:hover:before,
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip]:hover:after,
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip]:focus:before,
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip]:focus:after,
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip]:active:before,
+.rtwpvs.rtwpvs-tooltip .rtwpvs-terms-wrapper [data-rtwpvs-tooltip]:active:after {
+  bottom: 120%;
+  visibility: visible;
+  opacity: 1;
+}
